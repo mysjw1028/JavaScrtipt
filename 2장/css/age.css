@@ -1,0 +1,30 @@
+body {
+    text-align: center;
+}
+
+.btn {
+    margin-top: 50px;
+    font-weight: 400;
+    color: #ffff;
+    background-color: #007bff;
+    text-align: center;
+    vertical-align: center;
+    border: 1px solid blue;
+    padding: 5px;
+
+}
+
+/*vertical-align ->인라인요소의 수직정렬을 위해서 사용된다
+:hover 를 할때 띄어쓰기 금지!!*/
+.btn:hover {
+    color: #fff;
+    background-color: aquamarine;
+    border-color: aquamarine;
+}
+
+.show {
+    margin-top: 50px;
+    padding: 20px 30px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
