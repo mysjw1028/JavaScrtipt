@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="4장 jQuery(기초)/css/img.css">
+    <title>글자 숨기기, 보이기 예제</title>
+</head>
+
+<body>
+    <div>안녕하세요. 초보 jquery-3 버전 입니다.</div>
+    <button id="showText">글자 숨기기 </button>
+    <button id="hideText">글자 보이기 </button>
+</body>
+<script>
+    $(document).ready(function () {
+        //글자 숨기기 버튼을 눌렀을때
+        $("#showText").click(function () {
+            $("div").hide();
+        });
+        //글자 보이기 버튼을 눌렀을때
+        $("#hideText").click(function () {
+            $("div").show(); //div영역에서 보일때
+        });
+    });
+</script>
+
+</html>
